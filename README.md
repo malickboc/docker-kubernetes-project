@@ -24,12 +24,12 @@ docker build -t my-app .
 Run Container
 docker run -p 8080:8080 my-app
 
-Kubernetes Deployment
+## Kubernetes Deployment
 
-Apply Deployment
+## Apply Deployment
 
 kubectl apply -f k8s/deployment.yaml
 
-Apply service
+## Apply service
 
 kubectl apply -f k8s/service.yaml
